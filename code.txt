@@ -1,3 +1,4 @@
 #!/bin/bash
 
 echo "This is a Git Demo Class"
+echo "job running"
