@@ -7,6 +7,8 @@ pipeline {
                 echo 'Im Building code Here'
                 sh 'touch f1 f2 f3'
                 sh 'ls -l'
+                sh 'python --version'
+
             }
         }
         stage('Test') {
