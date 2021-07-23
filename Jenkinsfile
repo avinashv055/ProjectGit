@@ -25,6 +25,7 @@ pipeline {
             steps {
                 echo 'Im Deployinh code Here'
                 sh 'date'
+                sh './code.txt'
             }
         }
     }
